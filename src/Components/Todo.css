@@ -1,0 +1,40 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+}
+
+.complete-btn{
+    background-color:#0ead69;
+    color: #ecf8f8;
+    height: 30px;
+    border: none;
+
+}
+.trash-btn{
+    background-color: #ca6702;
+    color: #ecf8f8;
+    height: 30px;
+    border: none;
+}
+
+li{
+    list-style: none;
+    color: #3a506b;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.completed{
+    text-decoration: 2px solid #464e47 line-through;
+}
+@media screen and (max-width:400px){
+    .todo{
+        width: 250px;
+    }
+}
